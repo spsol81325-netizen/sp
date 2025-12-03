@@ -1,0 +1,61 @@
+*{box-sizing: border-box;}
+.App{
+  padding: 20px
+}
+.black-nav{
+  background: black;
+  padding: 20px;
+  color: #fff;
+  width: 100%;
+}
+.list{
+  border-bottom: 1px solid #ddd;
+  padding:20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  h4{
+    margin-bottom: 20px;
+    color: #555;
+  }
+  span{
+    font-size: 30px;
+    color: #f00;
+    padding-right: 10px;
+  }
+  p{
+    font-size: 14px;
+    color: #999;
+  }
+}
+.modal{
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  background: #eee;
+
+
+}
+button{
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: rgb(242, 10, 10);
+  color: #fff;
+  height: 50px;
+  border: none;
+}
+input{
+  display: block;
+  margin: 10px 0;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+.write{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #555;
+  padding-top: 15px;
+}
