@@ -3,7 +3,7 @@ import './App.css'
 import { ImCamera } from "react-icons/im";
 
 function App() {
-    let [blog, setBlog]=useState(['명품가방추천','명품신발추천','명품시계추천'])
+   let [blog, setBlog]=useState(['명품가방추천','명품신발추천','명품시계추천'])
    let [modal, setModal]=useState(false)
    let [title, setTitle]=useState(0)
    let [likes, setLikes]=useState(Array(blog.length).fill(0))
